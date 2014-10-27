@@ -13,13 +13,7 @@
         "php": ">=5.4.0",
         "symfony/console": "2.*"
     },
-    "require-dev": {
-        "phpunit/phpunit": "3.7.*"
-    },
-    "config": {
-        "bin-dir": "bin/"
-    },
     "autoload": {
-        "files": ["commander.php", "argument.php", "option.php", "command.php"]
+        "files": ["commander.php", "argument.php", "option.php", "command.php", "callbackCommand.php"]
     }
 }
