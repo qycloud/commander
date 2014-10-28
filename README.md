@@ -23,7 +23,7 @@ Commander is command line interfaces wraps [symfony/Console](https://github.com/
 <?php
 require __DIR__ . '/vendor/autoload.php';
 
-use Commander\Command;
+use Symfony\Component\Console\Command\Command;
 
 class RenameCommand extends Command
 {
@@ -82,7 +82,7 @@ $commander->name('db')
 
 ### Argument of Commander#command:
 
-* Defined as a subclass of Commander\Command
+* Defined as a subclass of Symfony\Component\Console\Command\Command
 * Defined as a array:
 
 ```php

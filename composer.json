@@ -14,6 +14,6 @@
         "symfony/console": "2.*"
     },
     "autoload": {
-        "files": ["commander.php", "argument.php", "option.php", "command.php", "callbackCommand.php"]
+        "files": ["commander.php", "callbackCommand.php"]
     }
 }

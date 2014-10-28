@@ -2,18 +2,20 @@
 use Commander\Option;
 use Commander\Argument;
 use Commander\CallbackCommand;
+use Symfony\Component\Console\Input\InputOption;
+use Symfony\Component\Console\Input\InputArgument;
 use Symfony\Component\Console\Application as Application;
 use Symfony\Component\Console\Command\Command as SymfonyCommand;
 
 class Commander
 {
-    const ARGUMENT_REQUIRED = Argument::REQUIRED;
-    const ARGUMENT_OPTIONAL = Argument::OPTIONAL;
+    const ARGUMENT_REQUIRED = InputArgument::REQUIRED;
+    const ARGUMENT_OPTIONAL = InputArgument::OPTIONAL;
 
-    const OPTION_VALUE_NONE = Option::VALUE_NONE;
-    const OPTION_VALUE_REQUIRED = Option::VALUE_REQUIRED;
-    const OPTION_VALUE_OPTIONAL = Option::VALUE_OPTIONAL;
-    const OPTION_VALUE_IS_ARRAY = Option::VALUE_IS_ARRAY;
+    const OPTION_VALUE_NONE = InputOption::VALUE_NONE;
+    const OPTION_VALUE_REQUIRED = InputOption::VALUE_REQUIRED;
+    const OPTION_VALUE_OPTIONAL = InputOption::VALUE_OPTIONAL;
+    const OPTION_VALUE_IS_ARRAY = InputOption::VALUE_IS_ARRAY;
 
     private $_application;
 
