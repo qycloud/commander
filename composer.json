@@ -1,0 +1,19 @@
+{
+    "name": "nanjingboy/commander",
+    "type": "library",
+    "description": "Command line interfaces make easy to build command line application",
+    "keywords": ["command", "interfaces"],
+    "homepage": "https://github.com/nanjingboy/commander",
+    "license": "MIT",
+    "authors": [{
+        "name": "Tom Huang",
+        "email": "hzlhu.dargon@gmail.com"
+    }],
+    "require": {
+        "php": ">=5.4.0",
+        "symfony/console": "2.*"
+    },
+    "autoload": {
+        "files": ["commander.php", "callbackCommand.php"]
+    }
+}
