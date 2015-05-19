@@ -1,5 +1,5 @@
 {
-    "name": "nanjingboy/commander",
+    "name": "qycloud/commander",
     "type": "library",
     "description": "Command line interfaces make easy to build command line application",
     "keywords": ["command", "interfaces"],
