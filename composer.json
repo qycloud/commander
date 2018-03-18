@@ -9,10 +9,6 @@
         "name": "Tom Huang",
         "email": "hzlhu.dargon@gmail.com"
     }],
-    "require": {
-        "php": ">=5.4.0",
-        "symfony/console": "2.*"
-    },
     "autoload": {
         "files": ["commander.php", "callbackCommand.php"]
     }
